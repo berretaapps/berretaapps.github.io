@@ -3,111 +3,164 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Full Player · Política de privacidad / Privacy policy</title>
+<title>Política de privacidad — Full Player — Berreta Apps</title>
+<meta name="description" content="Política de privacidad de Full Player, el reproductor de música para Android de Berreta Apps.">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&amp;family=Instrument+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
 <style>
-  :root { color-scheme: dark; --accent: #5cc6b8; --text: #e8ecea; --muted: #9aa5a1; --bg: #101413; --panel: #171d1b; }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { font-size: 1.7rem; margin: 0 0 4px; }
-  h2 { font-size: 1.15rem; color: var(--accent); margin: 28px 0 8px; }
-  .muted { color: var(--muted); font-size: .9rem; }
-  .tabs { display: flex; gap: 8px; margin: 20px 0 8px; }
-  .tabs button { background: var(--panel); color: var(--text); border: 1px solid #2a3330; border-radius: 999px; padding: 6px 16px; font: inherit; cursor: pointer; }
-  .tabs button[aria-pressed="true"] { background: var(--accent); color: #0b1210; border-color: var(--accent); }
-  section[lang] { display: none; } section[lang].visible { display: block; }
-  a { color: var(--accent); }
-  ul { padding-left: 1.2em; } li { margin: 4px 0; }
+html{scroll-behavior:smooth}
+body{margin:0;background:#EDEFF1;color:#1A1D24;font-family:'Instrument Sans',system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:#1A1D24}a:hover{color:#2F4BD8}
+a:focus-visible,button:focus-visible{outline:3px solid #2F4BD8;outline-offset:3px}
+img{max-width:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* contenido de la política */
+.doc h2{margin:48px 0 12px;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:24px;letter-spacing:-0.01em}
+.doc p,.doc li{font-size:17px;line-height:1.6;color:#454B57}
+.doc p{margin:0 0 12px}
+.doc ul{margin:0 0 12px;padding-left:1.2em}
+.doc li{margin:6px 0}
+.doc b{color:#1A1D24;font-weight:600}
+.doc a{color:#2F4BD8}
+.lang-toggle button{font:inherit;font-size:16px;font-weight:500;padding:10px 18px;border-radius:999px;border:1.5px solid #1A1D24;background:transparent;color:#1A1D24;cursor:pointer}
+.lang-toggle button[aria-pressed="true"]{background:#1A1D24;color:#FFFFFF}
+section[lang]{display:none}section[lang].visible{display:block}
+@media (max-width:720px){
+header nav{gap:16px 20px!important;font-size:15px!important}
+#privacidad>div{padding-top:56px!important;padding-bottom:56px!important}
+#privacidad h1{font-size:40px!important}
+}
 </style>
 </head>
 <body>
-<main>
-  <h1>Full Player</h1>
-  <div class="muted">Berreta Apps · Última actualización / Last updated: 2026-10-06</div>
-  <div class="tabs">
-    <button data-lang="es">Español</button>
-    <button data-lang="en">English</button>
-  </div>
+<div style="width: 100%; box-sizing: border-box; background: #EDEFF1; color: #1A1D24; font-family: 'Instrument Sans', system-ui, sans-serif">
 
-  <section lang="es">
-    <h2>Resumen</h2>
-    <p>Full Player es un reproductor de la música guardada en tu dispositivo. No tiene cuentas de usuario, no tiene servidores propios y no vendemos tus datos. Tu música, tus listas, tu historial y tus ajustes se guardan solo en tu dispositivo.</p>
+<header style="max-width: 1200px; margin: 0 auto; padding: 28px 32px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<a href="../" style="display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.02em">
+<img src="../assets/logo.png" alt="" style="width: 40px; height: 40px; display: block">
+Berreta Apps
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; font-size: 16px; font-weight: 500">
+<a href="../#caracteristicas" style="text-decoration: none">Características</a>
+<a href="./" aria-current="page" style="text-decoration: none; color: #2F4BD8">Política de privacidad</a>
+<a href="mailto:berretaapps@gmail.com" style="text-decoration: none">berretaapps@gmail.com</a>
+<a href="../#descargar" style="text-decoration: none; padding: 12px 20px; border-radius: 999px; border: 1.5px solid #1A1D24">Descargar</a>
+</nav>
+</header>
 
-    <h2>Datos que usa la app en tu dispositivo</h2>
-    <ul>
-      <li><b>Archivos de audio:</b> la app lee tu música (título, artista, álbum, carátula, letra) para mostrarla y reproducirla. No la modifica ni la envía a ningún lado.</li>
-      <li><b>Listas, historial de reproducción y estadísticas, ajustes y temas:</b> se guardan solo en tu dispositivo. Si tu dispositivo tiene activada la copia de seguridad de Google, Android puede incluirlos en esa copia, según tu configuración.</li>
-    </ul>
+<section id="privacidad" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 120px 32px; box-sizing: border-box">
+<div style="max-width: 760px">
+<p style="margin: 0 0 16px; font-size: 18px; font-weight: 600; color: #2F4BD8">Full Player para Android</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; line-height: 1.02; letter-spacing: -0.035em"><span data-es>Política de privacidad</span><span data-en hidden>Privacy policy</span></h1>
+<p style="margin: 20px 0 0; font-size: 15px; color: #454B57"><span data-es>Última actualización: 6 de octubre de 2026</span><span data-en hidden>Last updated: October 6, 2026</span></p>
+<div class="lang-toggle" role="group" aria-label="Idioma / Language" style="display: flex; gap: 10px; margin: 32px 0 8px">
+<button type="button" data-lang="es">Español</button>
+<button type="button" data-lang="en">English</button>
+</div>
 
-    <h2>Anuncios (Google AdMob)</h2>
-    <p>La versión gratuita muestra anuncios de Google AdMob. Para mostrarlos, Google puede recopilar el identificador de publicidad del dispositivo, la dirección IP y datos técnicos del dispositivo, según su propia política. En las regiones donde la ley lo exige (como el Espacio Económico Europeo y el Reino Unido), la app pide tu consentimiento antes, y puedes cambiarlo en Ajustes. Puedes restablecer o eliminar el identificador de publicidad en los ajustes de Google de tu dispositivo.</p>
-    <p>Más información: <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos de los sitios y apps que usan sus servicios</a>.</p>
+<div class="doc">
+<section lang="es">
+<h2>En pocas palabras</h2>
+<p>Full Player reproduce la música que ya tenés en tu teléfono. No tiene cuentas de usuario, no tiene servidores propios y no vendemos tus datos. Tu música, tus listas, tu historial y tus ajustes se quedan en tu teléfono.</p>
 
-    <h2>Compras (Google Play)</h2>
-    <p>Full Player Pro se compra a través de Google Play. El pago lo procesa Google: la app no recibe ni guarda los datos de tu tarjeta ni de tu medio de pago. Solo consulta a Google Play si la compra está activa.</p>
+<h2>Qué usa la app en tu teléfono</h2>
+<ul>
+<li><b>Tus archivos de audio:</b> la app lee tu música (título, artista, álbum, carátula y letra) para mostrarla y reproducirla. No la modifica ni la manda a ningún lado.</li>
+<li><b>Listas, historial, estadísticas, ajustes y temas:</b> se guardan solo en tu teléfono. Si tenés activada la copia de seguridad de Google, Android puede incluirlos en esa copia, según cómo la tengas configurada.</li>
+</ul>
 
-    <h2>Transmitir a una TV (Google Cast)</h2>
-    <p>Cuando transmites a un televisor o parlante, la app abre temporalmente un servidor dentro de tu red local para que ese dispositivo pueda reproducir las canciones que envías. Solo comparte esas canciones, solo dentro de tu red y solo mientras dura la transmisión.</p>
+<h2>Anuncios (Google AdMob)</h2>
+<p>La versión gratuita muestra anuncios de Google AdMob. Para mostrarlos, Google puede recopilar el identificador de publicidad del teléfono, la dirección IP y datos técnicos del dispositivo, según su propia política. En las regiones donde la ley lo exige (como el Espacio Económico Europeo y el Reino Unido), la app te pide permiso antes, y podés cambiarlo cuando quieras en Ajustes. También podés restablecer o borrar el identificador de publicidad en los ajustes de Google de tu teléfono.</p>
+<p>Más información: <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google los datos de las apps que usan sus servicios</a>.</p>
 
-    <h2>Permisos</h2>
-    <ul>
-      <li><b>Acceso a archivos de audio:</b> para encontrar y reproducir tu música.</li>
-      <li><b>Notificaciones:</b> para los controles de reproducción.</li>
-      <li><b>Servicio en primer plano y mantener activo el dispositivo:</b> para que la música siga sonando sin cortes con la pantalla apagada.</li>
-      <li><b>Internet y red local:</b> para los anuncios, las compras y la transmisión a dispositivos Cast.</li>
-    </ul>
+<h2>Compras (Google Play)</h2>
+<p>Full Player Pro se compra a través de Google Play. El pago lo procesa Google: la app nunca recibe ni guarda los datos de tu tarjeta ni de tu medio de pago. Solo le consulta a Google Play si la compra está activa.</p>
 
-    <h2>Niños</h2>
-    <p>Full Player no está dirigida a menores de 13 años y no recopila a sabiendas datos de niños.</p>
+<h2>Cast a tu tele o parlante</h2>
+<p>Cuando casteás a una tele o a un parlante, la app abre por un rato un servidor dentro de tu red local para que ese dispositivo pueda reproducir las canciones que le mandás. Comparte solo esas canciones, solo dentro de tu red y solo mientras dura la transmisión.</p>
 
-    <h2>Cambios y contacto</h2>
-    <p>Si esta política cambia, se actualizará en esta página con una nueva fecha. Para cualquier consulta: <a href="mailto:CONTACTO@EJEMPLO.COM">CONTACTO@EJEMPLO.COM</a>.</p>
-  </section>
+<h2>Permisos</h2>
+<ul>
+<li><b>Acceso a archivos de audio:</b> para encontrar y reproducir tu música.</li>
+<li><b>Notificaciones:</b> para los controles de reproducción.</li>
+<li><b>Servicio en primer plano y mantener activo el teléfono:</b> para que la música siga sonando sin cortes con la pantalla apagada.</li>
+<li><b>Internet y red local:</b> para los anuncios, las compras y el Cast.</li>
+</ul>
 
-  <section lang="en">
-    <h2>Summary</h2>
-    <p>Full Player plays the music stored on your device. It has no user accounts, no servers of its own, and we do not sell your data. Your music, playlists, history and settings stay on your device.</p>
+<h2>Menores</h2>
+<p>Full Player no está pensada para menores de 13 años y no recopila a sabiendas datos de chicos.</p>
 
-    <h2>Data the app uses on your device</h2>
-    <ul>
-      <li><b>Audio files:</b> the app reads your music (title, artist, album, artwork, lyrics) to show and play it. It does not modify it or send it anywhere.</li>
-      <li><b>Playlists, play history and statistics, settings and themes:</b> stored only on your device. If Google backup is turned on, Android may include them in that backup, depending on your settings.</li>
-    </ul>
+<h2>Cambios y contacto</h2>
+<p>Si esta política cambia, la vas a encontrar actualizada en esta página, con la fecha nueva. Para cualquier consulta, escribinos a <a href="mailto:berretaapps@gmail.com">berretaapps@gmail.com</a>.</p>
+</section>
 
-    <h2>Ads (Google AdMob)</h2>
-    <p>The free version shows ads from Google AdMob. To show them, Google may collect the device's advertising ID, IP address and technical device data, under its own policy. Where the law requires it (such as the European Economic Area and the United Kingdom), the app asks for your consent first, and you can change it in Settings. You can reset or delete the advertising ID in your device's Google settings.</p>
-    <p>More information: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+<section lang="en">
+<h2>In short</h2>
+<p>Full Player plays the music you already have on your phone. It has no user accounts, no servers of its own, and we do not sell your data. Your music, playlists, history and settings stay on your phone.</p>
 
-    <h2>Purchases (Google Play)</h2>
-    <p>Full Player Pro is bought through Google Play. Payment is processed by Google: the app never receives or stores your card or payment details. It only asks Google Play whether the purchase is active.</p>
+<h2>What the app uses on your phone</h2>
+<ul>
+<li><b>Your audio files:</b> the app reads your music (title, artist, album, artwork and lyrics) to show and play it. It does not modify it or send it anywhere.</li>
+<li><b>Playlists, history, statistics, settings and themes:</b> stored only on your phone. If Google backup is turned on, Android may include them in that backup, depending on your settings.</li>
+</ul>
 
-    <h2>Casting to a TV (Google Cast)</h2>
-    <p>When you cast to a TV or speaker, the app temporarily runs a server on your local network so that device can play the songs you send. It only shares those songs, only on your network, and only while casting.</p>
+<h2>Ads (Google AdMob)</h2>
+<p>The free version shows ads from Google AdMob. To show them, Google may collect the phone's advertising ID, IP address and technical device data, under its own policy. Where the law requires it (such as the European Economic Area and the United Kingdom), the app asks for your consent first, and you can change it anytime in Settings. You can also reset or delete the advertising ID in your phone's Google settings.</p>
+<p>More information: <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
 
-    <h2>Permissions</h2>
-    <ul>
-      <li><b>Access to audio files:</b> to find and play your music.</li>
-      <li><b>Notifications:</b> for the playback controls.</li>
-      <li><b>Foreground service and keeping the device awake:</b> so music keeps playing without cuts with the screen off.</li>
-      <li><b>Internet and local network:</b> for ads, purchases and casting to Cast devices.</li>
-    </ul>
+<h2>Purchases (Google Play)</h2>
+<p>Full Player Pro is bought through Google Play. Payment is processed by Google: the app never receives or stores your card or payment details. It only asks Google Play whether the purchase is active.</p>
 
-    <h2>Children</h2>
-    <p>Full Player is not directed to children under 13 and does not knowingly collect children's data.</p>
+<h2>Cast to your TV or speaker</h2>
+<p>When you cast to a TV or speaker, the app briefly runs a server on your local network so that device can play the songs you send. It only shares those songs, only on your network, and only while casting.</p>
 
-    <h2>Changes and contact</h2>
-    <p>If this policy changes, this page will be updated with a new date. For any question: <a href="mailto:CONTACTO@EJEMPLO.COM">CONTACTO@EJEMPLO.COM</a>.</p>
-  </section>
-</main>
+<h2>Permissions</h2>
+<ul>
+<li><b>Access to audio files:</b> to find and play your music.</li>
+<li><b>Notifications:</b> for the playback controls.</li>
+<li><b>Foreground service and keeping the phone awake:</b> so music keeps playing without cuts with the screen off.</li>
+<li><b>Internet and local network:</b> for ads, purchases and Cast.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Full Player is not directed to children under 13 and does not knowingly collect children's data.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, you will find it updated on this page with the new date. For any question, write to us at <a href="mailto:berretaapps@gmail.com">berretaapps@gmail.com</a>.</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="border-top: 1px solid #C9CDD4">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px; box-sizing: border-box; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 15px; color: #454B57">
+<span>© 2026 Berreta Apps</span>
+</div>
+</footer>
+
+</div>
 <script>
-  // muestra el idioma del navegador (español si empieza con "es", si no inglés) y permite cambiarlo
-  const show = (lang) => {
-    document.querySelectorAll('section[lang]').forEach(s => s.classList.toggle('visible', s.lang === lang));
-    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === lang));
+// Muestra el idioma del navegador (español si empieza con "es"; si no, inglés) y permite cambiarlo.
+// Se puede forzar con ?lang=en o ?lang=es en la dirección.
+(function () {
+  function show(lang) {
+    document.querySelectorAll('section[lang]').forEach(function (s) { s.classList.toggle('visible', s.lang === lang); });
+    document.querySelectorAll('[data-es]').forEach(function (e) { e.hidden = lang !== 'es'; });
+    document.querySelectorAll('[data-en]').forEach(function (e) { e.hidden = lang !== 'en'; });
+    document.querySelectorAll('.lang-toggle button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === lang); });
     document.documentElement.lang = lang;
-  };
-  document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => show(b.dataset.lang)));
-  show((navigator.language || 'en').toLowerCase().startsWith('es') ? 'es' : 'en');
+  }
+  document.querySelectorAll('.lang-toggle button').forEach(function (b) {
+    b.addEventListener('click', function () { show(b.dataset.lang); });
+  });
+  var forced = new URLSearchParams(location.search).get('lang');
+  show(forced === 'es' || forced === 'en' ? forced : ((navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en'));
+})();
 </script>
 </body>
 </html>
