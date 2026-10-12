@@ -24,6 +24,7 @@ h1{margin:0;font-weight:900;font-size:68px;line-height:1.02;letter-spacing:-0.03
 
 .tv{flex:0 1 600px;min-width:0;margin:0 auto;display:flex;flex-direction:column;align-items:center}
 .screen{width:100%;aspect-ratio:16/9;box-sizing:border-box;border:14px solid #22292F;border-radius:24px;background:linear-gradient(#FAFCFD,#E3EAEF);display:flex;flex-direction:column;overflow:hidden;box-shadow:0 24px 50px rgba(30,42,51,.18)}
+.screen img{width:100%;height:100%;object-fit:cover;display:block}
 .stand{width:28%;height:14px;margin-top:10px;border-radius:0 0 12px 12px;background:#22292F}
 .grid{flex:1;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:4.5%;padding:5% 6% 3%}
 .ch{border-radius:12px;background:var(--white);box-shadow:0 0 0 2px var(--line),0 4px 10px rgba(40,70,100,.10);display:flex;align-items:center;justify-content:center;color:#7B8C99}
